@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -26,11 +27,55 @@
           ></textarea>
         </div>
         <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+          <button id="generate" class="btn" type="button" data-toggle="modal" data-target="#passwordGeneratorModal">Generate Password</button>
         </div>
       </div>
     </div>
     <script src="script.js"></script>
     <!-- YOU DO NOT NEED TO CHANGE THIS CODE -->
+    <!-- Bootstrap modal -->
+    
+<div class="modal fade" id="passwordGeneratorModal" tabindex="-1" aria-labelledby="passwordGeneratorModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="passwordGeneratorModalLabel">Password Criteria</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <p>Length: <span id="sliderValue"></span></p>
+          <div class="slidecontainer">
+            <input type="range" min="8" max="128" value="64" class="slider" id="myRange">
+          </div>
+          <p>Character types: </p>
+          <input type="checkbox" id="lowercase" name="lowercase" value="lowercase">
+          <label for="lowercase"> Lowercase</label>
+          <br/>
+          <input type="checkbox" id="uppercase" name="uppercase" value="uppercase">
+          <label for="uppercase"> Uppercase</label>
+          <br/>
+          <input type="checkbox" id="numeric" name="numeric" value="numeric">
+          <label for="numeric"> Numeric</label>
+          <br/>
+          <input type="checkbox" id="special" name="special" value="special">
+          <label for="special"> Special</label>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="writePassword()" data-dismiss="modal">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
