@@ -102,6 +102,13 @@ function getRandomChar() {
         i++
         //this returns the random special character by runing this function.
         return getSpecialChar();
+        //this checks if no options are checked and returns nothing.
+      } else if (useLowercase.checked === false && useUppercase.checked === false && useNumeric.checked === false && useSpecial.checked === false) {
+        //this adds 1 to i to stop the do loop.
+        i++
+        //logs to the console the error.
+        console.log("Error: user must choose and option");
+        return;
       } else {
         //this will randomly change the getRandomChar number before the do/while loop repeats.
         getRandomChar = Math.floor(Math.random()*4);
