@@ -14,6 +14,8 @@ The goal of this project is to create an application that generates a random pas
 
 Project Link: https://kopelson.github.io/passwordGenerator/
 
+![passwordgensnip](https://user-images.githubusercontent.com/57735283/93399898-5cabb980-f833-11ea-8ca5-c36682537077.PNG)
+
 
 ## Usage
 A person needing to generate a password can use the generate password button.
