@@ -32,22 +32,18 @@ A person needing to generate a password can use the generate password button.
 ## Credits
 
 ### Bootstrap 
-    Modal documentation
-        https://getbootstrap.com/docs/4.5/components/modal/#examples
+    Modal documentation: https://getbootstrap.com/docs/4.5/components/modal/#examples
 
 ### w3schools
-    Range Slider tutorial
-        https://www.w3schools.com/howto/howto_js_rangeslider.asp
+    Range Slider tutorial: https://www.w3schools.com/howto/howto_js_rangeslider.asp
 
-    Do/While loop tutorial
-        https://www.w3schools.com/JSREF/jsref_dowhile.asp
+    Do/While loop tutorial: https://www.w3schools.com/JSREF/jsref_dowhile.asp
 
 ### OWASP
-    Special character documentation
-        https://owasp.org/www-community/password-special-characters
+    Special character documentation: https://owasp.org/www-community/password-special-characters
 
 ### Trilogy Education Services
-    -Premade HTML & CSS code & project idea
+    Premade HTML & CSS code & project setup
 
 ## License
 
