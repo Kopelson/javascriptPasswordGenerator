@@ -21,26 +21,29 @@ A person needing to generate a password can use the generate password button.
     When generate password is pressed a modal appears to collect user password criteria.
     
 ### Length
-    A slider is used to collect the amount of characters the user needs the password to be. The password generator can create a password that ranges from 8 to 128 characters.
+    A slider is used to collect the amount of characters the user needs the password to be. 
+    The password generator can create a password that ranges from 8 to 128 characters.
     
 ### Options
-    The password generator can use different character types including lowercase, uppercase, numeric, and/or special characters. The options are selected through the checkboxs in the password criteria modal.
+    The password generator can use different character types including lowercase, uppercase, numeric, and/or special characters. 
+    The options are selected through the checkboxs in the password criteria modal.
 
 ### Display
-    When the saved button in modal is pressed the password is then generated and printed to the page. If no criteria is selected and/or the close button is pressed the password generator prints an empty password to the screen.
+    When the saved button in modal is pressed the password is then generated and printed to the page. 
+    If no criteria is selected and/or the close button is pressed the password generator prints an empty password to the screen.
 
 ## Credits
 
-### Bootstrap 
-    Modal documentation: https://getbootstrap.com/docs/4.5/components/modal/#examples
+### Bootstrap     
+<a href="https://getbootstrap.com/docs/4.5/components/modal/#examples">Modal Documentation</a>
 
 ### w3schools
-    Range Slider tutorial: https://www.w3schools.com/howto/howto_js_rangeslider.asp
+<a href="https://www.w3schools.com/howto/howto_js_rangeslider.asp">Range Slider Tutorial</a>
 
-    Do/While loop tutorial: https://www.w3schools.com/JSREF/jsref_dowhile.asp
+<a href="https://www.w3schools.com/JSREF/jsref_dowhile.asp">Do While Loop Tutorial</a>
 
 ### OWASP
-    Special character documentation: https://owasp.org/www-community/password-special-characters
+<a href="https://owasp.org/www-community/password-special-characters">Special Character Documentation</a>
 
 ### Trilogy Education Services
     Premade HTML & CSS code & project setup
@@ -70,5 +73,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Badges
-   
+<a href="https://img.shields.io/badge/JavaScript-53.8%25-yellow"><img alt="Javascript usage" src="https://img.shields.io/badge/JavaScript-53.8%25-yellow"><a>
 ## Tests
