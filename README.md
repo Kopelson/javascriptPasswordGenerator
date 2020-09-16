@@ -19,16 +19,25 @@ Project Link: https://kopelson.github.io/passwordGenerator/
 
 ## Usage
 Any person who needs to generate a password can use this project to create a random password. The first step is to hit the generate password button.
+
+![modal](https://user-images.githubusercontent.com/57735283/93400875-b4e3bb00-f835-11ea-959a-fc956d6a0df2.gif)
+
 ### Modal
     When generate password is pressed a modal appears to collect user password criteria.
+    
+![slider](https://user-images.githubusercontent.com/57735283/93401053-202d8d00-f836-11ea-986a-6a489304b392.gif)
     
 ### Length
     A slider is used to collect the amount of characters the user needs the password to be. 
     The password generator can create a password that ranges from 8 to 128 characters.
     
+![options](https://user-images.githubusercontent.com/57735283/93401188-7d294300-f836-11ea-9f9c-de0c808fb038.gif)
+    
 ### Options
     The password generator can use different character types including lowercase, uppercase, numeric, and/or special characters. 
     The options are selected through the checkboxs in the password criteria modal.
+    
+![savechanges](https://user-images.githubusercontent.com/57735283/93403704-270bce00-f83d-11ea-9ed4-739ba1c45f88.gif)
 
 ### Display
     When the saved button in modal is pressed the password is then generated and printed to the page. 
