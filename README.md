@@ -73,5 +73,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Badges
-<a href="https://img.shields.io/badge/JavaScript-53.8%25-yellow"><img alt="Javascript usage" src="https://img.shields.io/badge/JavaScript-53.8%25-yellow"><a>
+<a href="https://img.shields.io/badge/CSS-19.6%25-purple"><img alt="CSS usage" src="https://img.shields.io/badge/CSS-19.6%25-purple"></a> <a href="https://img.shields.io/badge/HTML-26.6%25-red"><img alt="HTML usage" src="https://img.shields.io/badge/HTML-26.6%25-red"></a> <a href="https://img.shields.io/badge/JavaScript-53.8%25-yellow"><img alt="Javascript usage" src="https://img.shields.io/badge/JavaScript-53.8%25-yellow"></a> <a href="https://img.shields.io/badge/Frameworks-Bootstrap-blue"><img alt="Bootstrap framework" src="https://img.shields.io/badge/Frameworks-Bootstrap-blue"></a>
 ## Tests
