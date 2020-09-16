@@ -18,7 +18,7 @@ Project Link: https://kopelson.github.io/passwordGenerator/
 
 
 ## Usage
-A person needing to generate a password can use the generate password button.
+Any person who needs to generate a password can use this project to create a random password. The first step is to hit the generate password button.
 ### Modal
     When generate password is pressed a modal appears to collect user password criteria.
     
