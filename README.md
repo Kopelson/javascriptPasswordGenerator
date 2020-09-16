@@ -42,6 +42,8 @@ Any person who needs to generate a password can use this project to create a ran
 ### Display
     When the saved button in modal is pressed the password is then generated and printed to the page. 
     If no criteria is selected and/or the close button is pressed the password generator prints an empty password to the screen.
+    
+![closingmodal](https://user-images.githubusercontent.com/57735283/93403958-cc26a680-f83d-11ea-85bb-4cc4cb051a4a.gif)
 
 ## Credits
 
