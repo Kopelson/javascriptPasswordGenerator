@@ -106,8 +106,6 @@ function getRandomChar() {
       } else if (useLowercase.checked === false && useUppercase.checked === false && useNumeric.checked === false && useSpecial.checked === false) {
         //this adds 1 to i to stop the do loop.
         i++
-        //logs to the console the error.
-        console.log("Error: user must choose and option");
         return;
       } else {
         //this will randomly change the getRandomChar number before the do/while loop repeats.
