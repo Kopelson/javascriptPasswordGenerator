@@ -12,7 +12,7 @@ The goal of this project is to create an application that generates a random pas
 
 ## Overview
 
-Project Link: https://kopelson.github.io/passwordGenerator/
+Project Link: https://kopelson.github.io/javascriptPasswordGenerator/
 
 ![passwordgensnip](https://user-images.githubusercontent.com/57735283/93399898-5cabb980-f833-11ea-8ca5-c36682537077.PNG)
 
